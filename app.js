@@ -4,6 +4,7 @@ const tourRouter = require('./routes/tourRoutes');
 const userRouter = require('./routes/userRoutes');
 const AppError = require('./utils/appError')
 const errorHandler = require('./controllers/errorController')
+
 const app = express();
 
 //MIDDLEWARES
